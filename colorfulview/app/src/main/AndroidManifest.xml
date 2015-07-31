@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MatchExaclyActivity"/>
+        <activity
+            android:name=".WrapAtMostActivity"/>
+        <activity
+            android:name=".ExaclyActivity"/>
     </application>
 
 </manifest>
