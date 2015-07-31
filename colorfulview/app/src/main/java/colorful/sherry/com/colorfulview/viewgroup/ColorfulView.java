@@ -1,4 +1,4 @@
-package colorful.sherry.com.colorfulview.view;
+package colorful.sherry.com.colorfulview.viewgroup;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,7 +6,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 
 /**
  * Created by sinye on 15/7/27.

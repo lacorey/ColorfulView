@@ -9,9 +9,13 @@ import java.util.List;
 public class NameHelper {
     public static List<String> getNameList(){
         List<String> list = new ArrayList<String>();
-        list.add("exacly (match all)");
-        list.add("exacly (200 * 200)");
-        list.add("at most (wrap content)");
+        list.add("Viewgroup exacly (match all)");
+        list.add("Viewgroup exacly (200 * 200)");
+        list.add("Viewgroup at most (wrap content)");
+        list.add("View one (verify code)");
+        list.add("view two (display image)");
+        list.add("view three (progressbar)");
+        list.add("view four (volumn controller)");
         return list;
     }
 
