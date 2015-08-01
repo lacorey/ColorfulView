@@ -26,28 +26,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
         switch (i){
             case 0:
@@ -64,6 +42,26 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Intent wrapIntent = new Intent();
                 wrapIntent.setClass(this,WrapAtMostActivity.class);
                 startActivity(wrapIntent);
+                break;
+            case 3:
+                Intent customer1 = new Intent();
+                customer1.setClass(this,CustomerViewOneActivity.class);
+                startActivity(customer1);
+                break;
+            case 4:
+                Intent customer2 = new Intent();
+                customer2.setClass(this,CustomerViewTwoActivity.class);
+                startActivity(customer2);
+                break;
+            case 5:
+                Intent customer3 = new Intent();
+                customer3.setClass(this,CustomerViewThreeActivity.class);
+                startActivity(customer3);
+                break;
+            case 6:
+                Intent customer4 = new Intent();
+                customer4.setClass(this,CustomerViewFourActivity.class);
+                startActivity(customer4);
                 break;
 
         }

@@ -23,6 +23,10 @@
             android:name=".WrapAtMostActivity"/>
         <activity
             android:name=".ExaclyActivity"/>
+        <activity
+            android:name=".CustomerViewOneActivity"/>
+        <activity
+            android:name=".CustomerViewTwoActivity"/>
     </application>
 
 </manifest>

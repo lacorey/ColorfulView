@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/colorful.sherry.com.colorfulview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <colorful.sherry.com.colorfulview.view.ViewOne
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="3712"
+        android:padding="10dp"
+        custom:titleTextColor="#ff0000"
+        android:layout_centerInParent="true"
+        custom:titleTextSize="40sp" />
+
+</RelativeLayout>
