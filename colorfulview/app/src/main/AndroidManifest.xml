@@ -18,15 +18,21 @@
         </activity>
 
         <activity
-            android:name=".MatchExaclyActivity"/>
+            android:name=".activity.MatchExaclyActivity"/>
         <activity
-            android:name=".WrapAtMostActivity"/>
+            android:name=".activity.WrapAtMostActivity"/>
         <activity
-            android:name=".ExaclyActivity"/>
+            android:name=".activity.ExaclyActivity"/>
         <activity
-            android:name=".CustomerViewOneActivity"/>
+            android:name=".activity.CustomerViewOneActivity"/>
         <activity
-            android:name=".CustomerViewTwoActivity"/>
+            android:name=".activity.CustomerViewTwoActivity"/>
+        <activity
+            android:name=".activity.CustomerViewThreeActivity"/>
+        <activity
+            android:name=".activity.FlowLayoutActivity"/>
+        <activity
+            android:name=".activity.HorizontalScrollViewActivity"/>
     </application>
 
 </manifest>

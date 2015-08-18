@@ -3,13 +3,20 @@ package colorful.sherry.com.colorfulview;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import colorful.sherry.com.colorfulview.activity.CustomerViewFourActivity;
+import colorful.sherry.com.colorfulview.activity.CustomerViewOneActivity;
+import colorful.sherry.com.colorfulview.activity.CustomerViewThreeActivity;
+import colorful.sherry.com.colorfulview.activity.CustomerViewTwoActivity;
+import colorful.sherry.com.colorfulview.activity.ExaclyActivity;
+import colorful.sherry.com.colorfulview.activity.FlowLayoutActivity;
+import colorful.sherry.com.colorfulview.activity.HorizontalScrollViewActivity;
+import colorful.sherry.com.colorfulview.activity.MatchExaclyActivity;
+import colorful.sherry.com.colorfulview.activity.WrapAtMostActivity;
 import colorful.sherry.com.colorfulview.config.NameHelper;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
@@ -62,6 +69,16 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Intent customer4 = new Intent();
                 customer4.setClass(this,CustomerViewFourActivity.class);
                 startActivity(customer4);
+                break;
+            case 7:
+                Intent flowlayout = new Intent();
+                flowlayout.setClass(this,FlowLayoutActivity.class);
+                startActivity(flowlayout);
+                break;
+            case 8:
+                Intent scrollIntent = new Intent();
+                scrollIntent.setClass(this,HorizontalScrollViewActivity.class);
+                startActivity(scrollIntent);
                 break;
 
         }

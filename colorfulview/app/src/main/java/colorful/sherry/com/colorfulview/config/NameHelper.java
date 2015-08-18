@@ -16,6 +16,8 @@ public class NameHelper {
         list.add("view two (display image)");
         list.add("view three (progressbar)");
         list.add("view four (volumn controller)");
+        list.add("FlowLayout");
+        list.add("HorizontalScrollView");
         return list;
     }
 

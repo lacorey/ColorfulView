@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/colorful.sherry.com.colorfulview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <colorful.sherry.com.colorfulview.view.ViewThree
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:firstColor="#33ffee"
+        custom:secondColor="#eeff33"
+        custom:circleWidth="20dp"
+        custom:speed="1000"/>
+
+</LinearLayout>

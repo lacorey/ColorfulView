@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E1E6F6"
+    android:orientation="vertical" >
+
+    <colorful.sherry.com.colorfulview.viewgroup.FlowLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="Welcome" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="IT工程师" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="学习ing" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="恋爱ing" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="挣钱ing" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="努力ing" />
+
+        <TextView
+            style="@style/flowlayout_text"
+            android:text="I thick i can" />
+    </colorful.sherry.com.colorfulview.viewgroup.FlowLayout>
+
+</LinearLayout>
