@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <colorful.sherry.com.colorfulview.viewgroup.scrollerlaunch.LaunchLayout
+        android:id="@+id/launch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+
+    </colorful.sherry.com.colorfulview.viewgroup.scrollerlaunch.LaunchLayout>
+
+
+    <Button android:id="@+id/bt_scrollLeft"
+        android:layout_alignParentBottom="true" android:layout_width="200dip"
+        android:layout_height="wrap_content" android:text="Prev" />
+
+    <Button android:id="@+id/bt_scrollRight" android:layout_width="200dip"
+        android:layout_toRightOf="@id/bt_scrollLeft"
+        android:layout_alignParentBottom="true" android:layout_height="wrap_content"
+        android:text="Next" />
+
+</RelativeLayout>

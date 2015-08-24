@@ -18,6 +18,9 @@ public class NameHelper {
         list.add("view four (volumn controller)");
         list.add("FlowLayout");
         list.add("HorizontalScrollView");
+        list.add("竖向滚动的ViewPager");
+        list.add("launch及scroller学习");
+        list.add("SlideMenu");
         return list;
     }
 

@@ -33,6 +33,12 @@
             android:name=".activity.FlowLayoutActivity"/>
         <activity
             android:name=".activity.HorizontalScrollViewActivity"/>
+        <activity
+            android:name=".activity.VerticalLinearLayoutActivity"/>
+        <activity
+            android:name=".activity.LaunchActivity"/>
+        <activity
+            android:name=".activity.SlideMenuActivity"/>
     </application>
 
 </manifest>

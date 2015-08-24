@@ -15,7 +15,10 @@ import colorful.sherry.com.colorfulview.activity.CustomerViewTwoActivity;
 import colorful.sherry.com.colorfulview.activity.ExaclyActivity;
 import colorful.sherry.com.colorfulview.activity.FlowLayoutActivity;
 import colorful.sherry.com.colorfulview.activity.HorizontalScrollViewActivity;
+import colorful.sherry.com.colorfulview.activity.LaunchActivity;
 import colorful.sherry.com.colorfulview.activity.MatchExaclyActivity;
+import colorful.sherry.com.colorfulview.activity.SlideMenuActivity;
+import colorful.sherry.com.colorfulview.activity.VerticalLinearLayoutActivity;
 import colorful.sherry.com.colorfulview.activity.WrapAtMostActivity;
 import colorful.sherry.com.colorfulview.config.NameHelper;
 
@@ -79,6 +82,21 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Intent scrollIntent = new Intent();
                 scrollIntent.setClass(this,HorizontalScrollViewActivity.class);
                 startActivity(scrollIntent);
+                break;
+            case 9:
+                Intent verticalLinearIntent = new Intent();
+                verticalLinearIntent.setClass(this,VerticalLinearLayoutActivity.class);
+                startActivity(verticalLinearIntent);
+                break;
+            case 10:
+                Intent launchIntent = new Intent();
+                launchIntent.setClass(this,LaunchActivity.class);
+                startActivity(launchIntent);
+                break;
+            case 11:
+                Intent slideMenuIntent = new Intent();
+                slideMenuIntent.setClass(this,SlideMenuActivity.class);
+                startActivity(slideMenuIntent);
                 break;
 
         }
