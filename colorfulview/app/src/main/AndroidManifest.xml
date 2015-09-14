@@ -39,6 +39,8 @@
             android:name=".activity.LaunchActivity"/>
         <activity
             android:name=".activity.SlideMenuActivity"/>
+        <activity
+            android:name=".eventbus.demo.EventBusActivity"/>
     </application>
 
 </manifest>

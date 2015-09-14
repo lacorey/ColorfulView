@@ -21,6 +21,7 @@ import colorful.sherry.com.colorfulview.activity.SlideMenuActivity;
 import colorful.sherry.com.colorfulview.activity.VerticalLinearLayoutActivity;
 import colorful.sherry.com.colorfulview.activity.WrapAtMostActivity;
 import colorful.sherry.com.colorfulview.config.NameHelper;
+import colorful.sherry.com.colorfulview.eventbus.demo.EventBusActivity;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     private ListView mListView;
@@ -97,6 +98,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 Intent slideMenuIntent = new Intent();
                 slideMenuIntent.setClass(this,SlideMenuActivity.class);
                 startActivity(slideMenuIntent);
+                break;
+            case 12:
+                Intent eventbusIntent = new Intent();
+                eventbusIntent.setClass(this,EventBusActivity.class);
+                startActivity(eventbusIntent);
                 break;
 
         }

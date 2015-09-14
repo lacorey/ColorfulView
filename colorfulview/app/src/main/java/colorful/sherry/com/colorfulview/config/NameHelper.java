@@ -21,6 +21,7 @@ public class NameHelper {
         list.add("竖向滚动的ViewPager");
         list.add("launch及scroller学习");
         list.add("SlideMenu");
+        list.add("EventBus");
         return list;
     }
 
